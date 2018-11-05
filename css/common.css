@@ -1,0 +1,24 @@
+html {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.serif {
+  font-family: Merriweather, serif;
+}
+
+hr {
+  border: 1px solid #c83645;
+}
+
+h1 {
+  color: #c83645;
+}
+
+fieldset {
+  border: 0;
+}
+
+.h3,
+h3 {
+  color: #000;
+}

@@ -1,0 +1,11 @@
+/* filter----> */
+
+.all-bears:checked ~ .animal-list .other-animals-select {
+  display: none;
+}
+
+.other-animals:checked ~ .animal-list .bears-select {
+  display: none;
+}
+
+/* end-of-filter----> */

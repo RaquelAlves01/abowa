@@ -1,0 +1,31 @@
+.animal-name {
+  color: #f15a29;
+}
+
+.animal-index:hover {
+  transition: .3s linear all;
+  border: 4px solid #f15a29;
+  border-radius: 10px;
+  opacity: 5;
+  color: #000;
+}
+
+.animal-index:hover .animal-name {
+  color: #c83645;
+  text-shadow: 4px 3px 70px #000;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.hover-box-caption {
+  bottom: -12em;
+  left: 0;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .5));
+  color: #fff;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, .9);
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-caption,
+.hover-box:focus .hover-box-caption {
+  bottom: 0;
+}

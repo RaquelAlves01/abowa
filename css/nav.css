@@ -1,0 +1,23 @@
+.icon-link {
+  color: #f15a29;
+}
+
+.icon-link:hover {
+  color: #c83645;
+  border-bottom: 2px dotted #c83645;
+}
+
+header {
+  background-color: #fff;
+}
+
+/* different nav */
+
+.ad-nav {
+  color: #000;
+}
+
+.ad-nav:hover {
+  color: #c83645;
+  border-bottom: 2px dotted #f15a29;
+}

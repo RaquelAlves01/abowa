@@ -1,0 +1,26 @@
+.input-required {
+  background-color: rgba(100, 0, 0, .3);
+}
+
+#hours-day dt {
+  width: 3.5em;
+  color: #511017;
+}
+
+.ad-info-footer {
+  background-color: #aea196;
+}
+
+.copyright {
+  background-color: #372e24;
+  color: #fff;
+}
+
+.footer-nav {
+  color: #511017;
+}
+
+.footer-nav:hover {
+  color: #e3e3e3;
+  border-bottom: 2px dotted #372e24;
+}
