@@ -1,0 +1,4 @@
+markdown: redcarpet
+baseurl: /abowa
+exclude: ['README.md']
+permalink: pretty
