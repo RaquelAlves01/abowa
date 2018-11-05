@@ -1,6 +1,22 @@
 #banner {
   background-color: #aea196;
 }
+
+.banner-adoptable {
+  background-image: url('{{site.baseurl}}/images/banner-rescues.jpg') no-repeat center center;
+  background-attachment: fixed;
+}
+
+.banner-application {
+  background-image: url('{{site.baseurl}}/images/banner-adopt.jpg') no-repeat center center;
+  background-attachment: fixed;
+}
+
+.banner-home{
+  background-image: url('{{site.baseurl}}/images/banner-index.jpg') no-repeat center center;
+  background-attachment: fixed;
+}
+
 .call-to-action p {
   color: #fff;
 }
