@@ -1,5 +1,35 @@
 ---
 layout: default
 title: Homepage
+bannerClass: banner-home
 meta: Adopt a Bear and Other Wild Animals is the most reliable source for a legitimate and safe wild animal adoption
 ---
+<main role="main" id="main" tabindex="0">
+  {% include banner.html
+    hOne='Adopt a Bear and Other Wild Animals'
+    callToAction='Sponsor today and help save their lives.'
+    actionButton='Sponsor Opportunities'
+  %}
+  {% include intro-section.html
+    hTwo='About Abowa'
+    introText='Adopt Bears and Other Wild Animals (ABOWA) has served Ottawa and the surrounding counties for over 70 years. In that time, we have cared for countless lost, abandoned, stray or surrendered animals and promoted adoptions as we have continued to grow.'
+    followText='In 2010 we moved into a brand new facility located at: 3173 HWY K68 Ottawa, KS 66067 and have restructured some of our policies to better serve the community and the animals we care for. ABOWA is a registered 501(c)(3) non-profit meaning your donations are tax-deductible. We are a no kill animal shelter.'
+  %}
+
+  <section class="adoptable-animals island-2" id="adoptable-animals">
+    <div class="island-2">
+      <h2 class="pad-t-2">Adoptable Animals</h2>
+      <ul class="list-group grid pad-b">
+        {% for rescue in site.posts limit:4 %}
+
+        <li class="unit [xs-1 s-1 m-1-2 l-1-4 ] pad-t pad-b push-1-2">
+            {% include animal-card.html data=rescue %}
+        </li>
+
+        {% endfor %}
+      </ul>
+      <a class="btn btn-ghost push-2 micro" href="{{site.baseurl}}/rescues/">View all Animals Available for Adoption</a>
+    </div>
+
+  </section>
+</main>
