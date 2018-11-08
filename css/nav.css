@@ -2,6 +2,12 @@
   color: #f15a29;
 }
 
+.current {
+  border-bottom: 2px dotted #c83645;
+  color: #c83645;
+}
+
+
 .icon-link:hover {
   color: #c83645;
   border-bottom: 2px dotted #c83645;

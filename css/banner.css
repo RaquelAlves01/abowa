@@ -1,19 +1,22 @@
 #banner {
-  background-color: #aea196;
+  height: 80vh;
+  max-height: 700px;
+  overflow: hidden;
 }
 
 .banner-adoptable {
-  background-image: url('{{site.baseurl}}/images/banner-rescues.jpg') no-repeat center center;
+  background: linear-gradient(to left top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .9)), url("{{site.baseurl}}/../images/banner-rescues.jpg") no-repeat center center;
   background-attachment: fixed;
 }
 
 .banner-application {
-  background-image: url('{{site.baseurl}}/images/banner-adopt.jpg') no-repeat center center;
+  background: linear-gradient(to left top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .9)), url("{{site.baseurl}}/../images/banner-adopt.jpg") no-repeat top center;
   background-attachment: fixed;
+
 }
 
 .banner-home{
-  background-image: url('{{site.baseurl}}/images/banner-index.jpg') no-repeat center center;
+  background: linear-gradient(to left top, rgba(0, 0, 0, .2), rgba(0, 0, 0, .9)), url("{{site.baseurl}}/../images/banner-index.jpg") no-repeat bottom center;
   background-attachment: fixed;
 }
 
@@ -22,14 +25,5 @@
 }
 
 .call-to-action h1 {
-  text-shadow: 1px 2px 40px #000;
-}
-
-.img-div {
-  overflow: hidden;
-}
-
-.img-banner {
-  max-height: 700px;
-  overflow: hidden;
+  text-shadow: 1px 2px 3px #000;
 }

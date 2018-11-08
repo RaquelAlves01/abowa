@@ -2,8 +2,14 @@
   color: #f15a29;
 }
 
+.animal-index {
+  border: 4px solid transparent;
+  border-radius: 10px;
+  
+}
+
 .animal-index:hover {
-  transition: .3s linear all;
+  transition: 200ms linear all;
   border: 4px solid #f15a29;
   border-radius: 10px;
   opacity: 5;
@@ -12,8 +18,7 @@
 
 .animal-index:hover .animal-name {
   color: #c83645;
-  text-shadow: 4px 3px 70px #000;
-  font-family: "Merriweather Sans", sans-serif;
+  text-shadow: 4px 3px 70px #e2e2e2;
 }
 
 .hover-box-caption {

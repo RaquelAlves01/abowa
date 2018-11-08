@@ -2,6 +2,10 @@ html {
   font-family: "Merriweather Sans", sans-serif;
 }
 
+a {
+  color: inherit;
+}
+
 .serif {
   font-family: Merriweather, serif;
 }
@@ -21,4 +25,8 @@ fieldset {
 .h3,
 h3 {
   color: #000;
+}
+
+.white {
+  color: #fff;
 }
