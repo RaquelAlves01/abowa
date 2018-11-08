@@ -1,0 +1,6 @@
+- image: images/aspen.jpg
+  animalName: Aspen
+  animalType: American black bear
+  animalAge: 3 months old
+  animalTypeFilter: bears-select
+  projectLink: /aspen
