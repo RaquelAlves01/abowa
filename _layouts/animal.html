@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<main role="main" id="main" tabindex="0">
+  <section class="island wrapper">
+    <div class="relative w-1 wrapper">
+      <img class="img-flex" src="{{site.baseurl}}/{{page.image}}" alt="Photo of {{page.title}}">
+      <div class="absolute pin-bl island">
+        <h1 class="yotta push-0">{{page.animalName}}</h1>
+        <p class="">{{page.animalType}}</p>
+        <p class="white">{{content}}</p>
+      </div>
+    </div>
+    <p class="push-1-2 pad-t kilo">See Also:</p>
+    <div class="grid">
+      {% for animals in site.posts limit: 4%}
+
+      <div class="unit [xs-1-2 s-1-2 m-1-4 l-1-4] ">
+        {% include animal-card.html data=animals %}
+      </div>
+      {% endfor %}
+
+    </div>
+  </section>
+
+  {% include intro-section.html
+    hTwo='Thank you for being awesome!'
+    introText='Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+   %}
+</main>
