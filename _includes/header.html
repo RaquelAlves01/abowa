@@ -1,0 +1,24 @@
+<ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" class="serif pad-t" tabindex="0">
+    <div class="grid gutter grid-bottom wrapper">
+      <div class="unit [ xs-1 s-1 m-1-4 l-1-4 ] text-left push">
+        <a href="{{site.baseurl}}/index/">
+          <i class="icon i-64 text-center">
+            <img src="{{site.baseurl}}/images/bears.svg" alt="" aria-details="ABOWA-Shelter-Logo">
+          </i>
+        </a>  
+      </div>
+      <nav role="navigation" id="nav" class="unit [ xs-1 s-1 m-3-4 l-3-4 ] tabindex="0"">
+        <ul class="list-group-inline text-right">
+          <li class="push-1-4"><a class="icon-link gutter-1-4 bold {% if page.url =='/index.html' %}current{% endif %}" href="{{site.baseurl}}/index/">Home</a></li>
+          <li class="push-1-4"><a class="icon-link gutter-1-4 bold {% if page.url =='/rescues.html' %}current{% endif %}" href="{{site.baseurl}}/rescues/">Adopt</a></li>
+          <li class="push-1-4"><a class="icon-link gutter-1-4 bold {% if page.url =='/application.html' %}current{% endif %}" href="{{site.baseurl}}/adopt/">Application</a></li>
+          <li class="push-1-4"><a class="icon-link gutter-1-4 bold {% if page.url =='/donate.html' %}current{% endif %}" href="{{site.baseurl}}/donate/">Donate</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>

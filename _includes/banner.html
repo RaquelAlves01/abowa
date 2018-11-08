@@ -1,0 +1,17 @@
+<section id="banner" class="relative {{page.bannerClass}}" tabindex="0">
+  <div class="img-div img-banner absolute pin-c">
+    <div class="pad-t call-to-action">
+      <h1 class="tena push-0 white">{{include.hOne}}</h1>
+      <p class="giga">{{include.callToAction}}</p>
+
+      {% if include.followText %}
+        <p class="giga">{{include.followText}}</p>
+
+      {% endif %}
+
+      {% if include.actionButton %}
+        <a class=" btn btn-white btn-ghost milli" href="#">{{include.actionButton}}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
